@@ -47,7 +47,7 @@ header {
     border-color: lightblue;
     border-width: 2px;
     float: left;
-    width: 350px;
+    width: 250px;
     height: 150px;
 }
 
@@ -96,4 +96,72 @@ header {
 
 .second_con {
     text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    main,
+    header {
+        width: 400px;
+    }
+    body {
+        width: 480px;
+    }
+    .mainwords {
+        width: 70px;
+    }
+    .mainfoto {
+        margin-left: 15px;
+        width: 80px;
+        height: 50px;
+    }
+    .title {
+        margin-left: 15px;
+        height: 70px;
+    }
+    .foto {
+        margin-left: 50px;
+        width: 166px;
+    }
+    .maincontent {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+    .knowtxt {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main,
+    header {
+        width: 637px;
+    }
+    body {
+        width: 768px;
+    }
+    .mainwords {
+        width: 132px;
+    }
+    .mainfoto {
+        margin-left: 32px;
+        width: 153px;
+        height: 96px;
+    }
+    .title {
+        margin-left: 32px;
+        height: 131px;
+    }
+    .foto {
+        margin-left: 96px;
+        width: 327px;
+    }
+    .maincontent {
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 32px;
+    }
+    .knowtxt {
+        font-size: 12px;
+    }
 }
